@@ -1,3 +1,7 @@
+#Things to remember:
+# -Don't forget to initialze pivot to the value of arr[right]
+# -Don't forget to swap arr[right] to the positoin of the arr[left_idx] this is where the pivot is in the correct spot
+
 import random
 
 class QuickSort:
@@ -37,4 +41,3 @@ class main:
     right = len(arr)-1
     sorted_arr = qs.quicksort(arr, left, right)
     print(sorted_arr)
-
